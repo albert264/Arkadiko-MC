@@ -12,6 +12,14 @@ export default function Home() {
         {/* Brand */}
         <header className="animate-fade-in">
           <div className="flex items-center gap-3">
+            <div>
+              <h1 className="text-xl font-display font-semibold text-text-primary tracking-tight">
+                MCVibe
+              </h1>
+              <p className="text-xs text-text-muted font-body tracking-wide uppercase">
+                Project Manager
+              </p>
+            </div>
             {/* Logo */}
             <div className="w-10 h-10 rounded-xl bg-accent flex items-center justify-center shadow-md">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -40,14 +48,6 @@ export default function Home() {
                   strokeLinejoin="round"
                 />
               </svg>
-            </div>
-            <div>
-              <h1 className="text-xl font-display font-semibold text-text-primary tracking-tight">
-                MCVibe
-              </h1>
-              <p className="text-xs text-text-muted font-body tracking-wide uppercase">
-                Project Manager
-              </p>
             </div>
           </div>
         </header>
