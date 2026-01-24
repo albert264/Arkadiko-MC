@@ -6,6 +6,19 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 MCVibe Project Manager is a full-stack web application built with Next.js 15 and React 19. It's a clean, aesthetically designed project management tool featuring a Kanban board, quick task management, and notes - all with localStorage persistence.
 
+## Rules
+
+1. **Plan First:** Think through the problem, read relevant files, and write a plan to `tasks/todo.md`
+2. **Track Progress:** The plan should have a list of todo items to check off as you complete them
+3. **Verify Before Starting:** Check in with me before beginning work so I can verify the plan
+4. **Update As You Go:** Work through todo items, marking them complete as you progress
+5. **Explain Changes:** Every step of the way, give a high-level explanation of what changes were made
+6. **Keep It Simple:** Make every task and code change as simple as possible - avoid massive or complex changes
+7. **Minimal Impact:** Every change should impact as little code as possible. Everything is about simplicity
+8. **Document Completion:** Add a review section to `tasks/todo.md` with a summary of changes and relevant information
+9. **No Laziness:** Never be lazy. If there is a bug, find the root cause and fix it properly. No temporary fixes. You are a senior developer
+10. **Simplicity is Key:** Make all fixes and code changes as simple as humanly possible. Only impact code relevant to the task. The goal is to not introduce any bugs
+
 ## Commands
 
 ```bash
